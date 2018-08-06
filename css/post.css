@@ -1,0 +1,141 @@
+body,html
+{
+	width: 100vw;
+	height: 100vh;
+	overflow-x: hidden;
+	background: rgb(245, 245, 245);
+}
+.postinp, .postmsg, .vidinp
+{
+	width: 90%;
+	font-size: 26px;
+	outline: none;
+	font-family: 'Open Sans',sans-serif;
+	margin: 10px;
+	padding-left: 8px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+.postformcontainer
+{
+	padding: 20px;
+	padding-top: 0px;
+	background: #fff;
+	border: 2px solid rgb(184, 12, 30);
+	min-height: 81vh;
+	position: absolute;
+	left: 0;
+	right: 20vw;
+	margin: auto;
+	margin-top: 120px;
+}
+.submitpostbtn
+{
+	color: #fff;
+	font-size: 17px;
+	font-weight: bold;
+	border: none !important;
+	width: 120px;
+	height: 50px;
+	margin-top: 25px;
+	background: rgba(184, 12, 30,0.7);
+	outline: none !important;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+
+
+
+.navbar
+{
+	position: fixed;
+	z-index: 100;
+	height: 60px;
+	width: 100vw;
+	border: none;
+	border-radius: 0;
+	left: 0;
+	background: #fff;
+	-webkit-box-shadow: -10px 2px 15px 1px rgba(0,0,0,0.1);
+-moz-box-shadow: -10px 2px 15px 1px rgba(0,0,0,0.1);
+box-shadow: -10px 2px 15px 1px rgba(0,0,0,0.1);
+}
+.shrilogo
+{
+	height: 40px;
+	width: auto;
+	position: absolute;
+	top: 0;bottom: 0;left: 10px;
+	margin: auto;
+}
+.title
+{
+	position: absolute;
+	font-family: 'Roboto Slab','Lato' !important;
+	height: 40px;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+	left: 65px;
+}
+.menutitle
+{
+	font-family: 'Lato';
+	text-align: center;
+	margin-top: 15px;
+	font-weight: bold;
+}
+.options
+{
+	margin-left: 60px;
+}
+.option
+{
+	width: 80%;
+	cursor: pointer;
+	height: 40px;
+	top: 60px;
+	background: rgba(184, 12, 30,0.7);
+	position: absolute;
+	right: 0;
+	padding: 2px;
+	display: block;
+	font-family: 'Lato';
+	font-size: 25px;
+	color: #fff;
+}
+.option:hover
+{
+	transition: all 0.2s ease-in;
+	background: rgba(184, 12, 30,0.8);
+	width: 100%;
+	cursor: pointer;
+}
+.o_selected
+{
+	background: rgba(184, 12, 30,0.8);
+	width: 100%;
+	cursor: default !important;
+}
+.sidenav
+{
+	position: fixed;
+	z-index: 99;
+	right: 0;
+	background: #fff;
+	width: 20vw;
+	height: 100vh;
+	-webkit-box-shadow: -2px 0px 15px 1px rgba(0,0,0,0.1);
+-moz-box-shadow: -2px 0px 15px 1px rgba(0,0,0,0.1);
+box-shadow: -2px 0px 15px 1px rgba(0,0,0,0.1);
+}
+.hidelink
+{
+	text-decoration: none;
+	color: #000;
+	font-family: 'Roboto Slab','Lato' !important;
+}
